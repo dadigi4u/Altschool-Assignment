@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+   <header class="hd">
+    <div class="name"><a href="index.html">BACK TO HOME PAGE</a></div>
+  
+   <div class="grid2"> 
+    <a href="about me.html"> <div>ABOUT ME</div></a>
+    <a href="login.html"><div>LOGIN</div></a>
+    <a href="register.html"><div>REGISTER</div></a>
+      <a href="cal.html"><div>CALCULATOR</div></a>
+   </div>
+    
+  </header>
+ 
+</head>
+<body>
+   <center>
+  <div class="form">
+    <form action="#" class="form">
+                <h3>CONTACT</h3>
+                <label for="name">Name</label>
+      
+                <input type="text" id="name" placeholder="Name" required minlength="3" maxlength="30"> <br>
+
+                <label for="email">Email</label> 
+                <input type="email" id="email" placeholder="something@something" required minlength="7" maxlength="40"> 
+
+                <label for="message">Message</label> 
+                <textarea name="message" id="message" required minlength="15" maxlength="50">your message here</textarea> 
+
+                <label for="priority">Priority</label> 
+                <select name="Priority" id="priority" required>
+                    <option value="frontend">Front end</option>
+                    <option value="backend">Back end</option>
+                    <option value="cloud">Cloud</option>
+                </select> 
+
+                <button type="submit">SUBMIT</button>
+
+            </form>
+  </div>
+    </center>       
+</body>
+</html>
